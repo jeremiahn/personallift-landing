@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Personal Lift</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .apple-blur { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+    </style>
+</head>
+<body class="bg-black text-white antialiased">
+
+    <!-- Simple Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-black/80 apple-blur border-b border-white/10">
+        <div class="max-w-5xl mx-auto px-6 h-12 flex items-center">
+            <a href="index.html" class="hover:text-gray-400 transition font-bold tracking-tight text-sm uppercase">← Back to Personal Lift</a>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-5xl font-extrabold tracking-tighter mb-4">Privacy Policy</h1>
+            <p class="text-gray-400 mb-12 font-medium">Last Updated: June 4, 2026</p>
+
+            <div class="space-y-12 text-lg text-gray-300 leading-relaxed">
+                
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-4">Our Privacy Philosophy</h2>
+                    <p>
+                        Personal Lift was built with a simple premise: your training data belongs to you. We believe that your strength metrics, body weight, and exercise history are private information. Consequently, our app is engineered to function entirely without a central server.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-4">1. Data Collection & Storage</h2>
+                    <p>
+                        Personal Lift does not collect, store, or transmit any personal data to external servers. All information you enter—including lift weights, repetitions, and body metrics—is stored locally on your device using encrypted storage provided by iOS. We do not have access to your training logs.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-4">2. Apple Health Integration</h2>
+                    <p>
+                        If you grant permission, Personal Lift can sync your workout data to the Apple Health app. This data is used solely to help you track your activity rings and daily caloric burn. This information is processed on-device and is never sent to our team or any third party.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-4">3. iCloud Backups</h2>
+                    <p>
+                        Personal Lift utilizes Apple's iCloud service to provide optional backup and synchronization across your own devices. This data is encrypted by Apple and is not accessible by the developers of Personal Lift.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-4">4. Third-Party Services</h2>
+                    <p>
+                        We do not use third-party analytics, tracking pixels, or advertising SDKs. There is no background tracking of your location or usage habits.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-4">5. Contacting Us</h2>
+                    <p>
+                        If you choose to contact us via email for support, we will only use your email address to respond to your inquiry. We do not sell or share your contact information with any marketing lists.
+                    </p>
+                </section>
+
+                <div class="pt-12 border-t border-white/10">
+                    <p class="text-sm text-gray-500">
+                        Questions regarding this policy can be directed to <a href="mailto:nelsoncomputer1@gmail.com" class="text-blue-500 hover:underline">nelsoncomputer1@gmail.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 text-center border-t border-white/10 text-gray-500 text-xs">
+        <p>© 2026 PERSONAL LIFT. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>
