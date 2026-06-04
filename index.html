@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Lift — Private Performance Tracking</title>
+    <title>Personal Lift — Your Offline-First Strength Companion</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         .squircle { border-radius: 22%; }
         .apple-blur { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
 <body class="bg-black text-white antialiased">
@@ -20,6 +21,7 @@
             <div class="flex items-center gap-8">
                 <a href="#" class="hover:text-gray-400 transition font-bold tracking-tight">PERSONAL LIFT</a>
                 <a href="#features" class="hidden md:block hover:text-gray-400 transition">Features</a>
+                <a href="#privacy" class="hidden md:block hover:text-gray-400 transition">Privacy</a>
                 <a href="#contact" class="hidden md:block hover:text-gray-400 transition">Contact</a>
             </div>
             <a href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" class="bg-blue-600 hover:bg-blue-500 px-3 py-1 rounded-full text-xs transition">Download</a>
@@ -29,26 +31,22 @@
     <!-- Hero Section -->
     <header class="pt-32 pb-20 px-6 text-center">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-blue-500 font-semibold text-lg md:text-xl mb-4 tracking-tight">The new standard for private strength.</h2>
-            <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter mb-8 leading-tight">
-                PERSONAL LIFT
+            <h2 class="text-blue-500 font-semibold text-lg md:text-xl mb-4 tracking-tight">Your offline-first, privacy-focused strength & powerlifting companion.</h2>
+            <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter mb-8 leading-tight uppercase">
+                Personal Lift
             </h1>
-            <p class="text-gray-400 text-xl md:text-2xl max-w-2xl mx-auto mb-12 font-medium">
-                Professional performance tracking. Completely personal. Engineered for Squat, Bench, and Deadlift.
+            <p class="text-gray-400 text-xl md:text-2xl max-w-3xl mx-auto mb-12 font-medium">
+                Take full control of your training with the ultimate tracking companion designed specifically for powerlifters, weightlifters, and gym enthusiasts.
             </p>
-      
+
             <!-- Icon & Download Button Container -->
             <div class="flex flex-col items-center gap-8 mb-16">
-    
-                <!-- 1. The Clickable App Icon -->
                 <a href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" class="inline-block transition-transform duration-300 hover:scale-105 active:scale-95">
                     <div class="w-32 h-32 md:w-48 md:h-48 bg-slate-900 squircle flex items-center justify-center shadow-2xl border border-white/10">
                         <span class="text-white text-5xl md:text-7xl font-bold">P</span>
                         <span class="text-blue-500 text-5xl md:text-7xl font-bold">L</span>
                     </div>
                 </a>
-
-                <!-- 2. The Large Download Button -->
                 <a href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" 
                    class="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-full text-lg font-semibold tracking-tight transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                     Download on the App Store
@@ -57,61 +55,121 @@
         </div>
     </header>
 
-    <!-- Feature Grid -->
-    <section id="features" class="bg-white text-black py-24 px-6">
-        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-16">
-            <div class="flex flex-col justify-center">
-                <h3 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">Intensity, automated.</h3>
-                <p class="text-lg text-gray-600 mb-6">
-                    Stop manually calculating percentages. Personal Lift uses your unique 1RM profile to scale every workout to your current strength.
-                </p>
+    <!-- Introduction Section -->
+    <section class="bg-white text-black py-24 px-6 border-b border-gray-200">
+        <div class="max-w-3xl mx-auto text-center">
+            <h3 class="text-3xl md:text-5xl font-bold tracking-tight mb-8">Fast. Private. Secure.</h3>
+            <p class="text-xl text-gray-600 leading-relaxed">
+                Personal Lift does away with complex accounts, forced subscriptions, and clunky interfaces. Built from the ground up to be fast, private, and secure, the app runs entirely on your device. Whether you are aiming for a new squat milestone, calculating plate math, or monitoring Wilks and DOTS scores, Personal Lift adapts automatically to optimize your experience.
+            </p>
+        </div>
+    </section>
+
+    <!-- Core Features Grid -->
+    <section id="features" class="bg-gray-50 text-black py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-4xl md:text-6xl font-bold mb-16 tracking-tight">Core Features</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-600 text-2xl mb-4 font-bold">Plate Math</div>
+                    <h4 class="text-xl font-bold mb-2">Barbell Plate Calculator</h4>
+                    <p class="text-gray-600">No more gym math. Enter your target intensity and the app instantly calculates the exact plate arrangement for each side of the bar.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-600 text-2xl mb-4 font-bold">The Big Three</div>
+                    <h4 class="text-xl font-bold mb-2">Core Lifts & Maxes</h4>
+                    <p class="text-gray-600">Track 1RM benchmarks for Squat, Bench Press, and Deadlift. Watch your strength adapt dynamically as you log new achievements.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-600 text-2xl mb-4 font-bold">Relative Strength</div>
+                    <h4 class="text-xl font-bold mb-2">Wilks & DOTS Scoring</h4>
+                    <p class="text-gray-600">Instantly compute powerlifting coefficients based on body weight, gender, and total lifts to benchmark your relative strength index.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-600 text-2xl mb-4 font-bold">Structure</div>
+                    <h4 class="text-xl font-bold mb-2">Preset & Custom Routines</h4>
+                    <p class="text-gray-600">Launch quickly with built-in templates like the "Powerlifting Big Three" or build custom volume routines for your training week.</p>
+                </div>
+                <!-- Feature 5 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-600 text-2xl mb-4 font-bold">Recovery</div>
+                    <h4 class="text-xl font-bold mb-2">Integrated Rest Timer</h4>
+                    <p class="text-gray-600">Stay focused with a floating capsule-style rest timer that overlays on screen, keeping rest periods precise.</p>
+                </div>
+                <!-- Feature 6 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-600 text-2xl mb-4 font-bold">Health</div>
+                    <h4 class="text-xl font-bold mb-2">Apple Health Integration</h4>
+                    <p class="text-gray-600">Seamlessly sync logged lifting sessions and calories burned to monitor your daily activity and close your rings.</p>
+                </div>
             </div>
-            <div class="bg-gray-100 rounded-3xl p-10 flex items-center justify-center">
-                <div class="text-center">
-                    <span class="block text-6xl font-black text-blue-600">85%</span>
-                    <span class="text-gray-500 font-bold uppercase tracking-widest text-sm">Working Intensity</span>
+            
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <h4 class="text-xl font-bold mb-2">OLED-Optimized Night Mode</h4>
+                    <p class="text-gray-600">Choose from light, dark, or pitch-black OLED layouts. An elegant theme selector helps you calibrate your preference before you lift.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm">
+                    <h4 class="text-xl font-bold mb-2">Tactile Haptics</h4>
+                    <p class="text-gray-600">Feel the weight of your workouts with custom-tailored Taptic engine vibrations on key actions and logs.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Analytics Section -->
-    <section class="bg-gray-50 text-black py-24 px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h3 class="text-4xl md:text-5xl font-bold tracking-tight mb-12">Your history, exported.</h3>
-            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-200 inline-block text-left max-w-lg">
-                <p class="text-gray-500 font-mono text-sm mb-4">LATEST_EXPORT.csv</p>
-                <div class="space-y-2 font-mono text-xs text-gray-800">
-                    <p>Date,Exercise,Weight,Reps,Tonnage</p>
-                    <p class="text-blue-600">2026-06-02,SQUAT,405,5,2025</p>
-                    <p>2026-06-02,BENCH,315,5,1575</p>
+    <!-- Privacy & Performance -->
+    <section id="privacy" class="bg-black text-white py-24 px-6 border-t border-white/10">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-center text-4xl md:text-6xl font-bold mb-16 tracking-tight">Privacy & Performance</h2>
+            <div class="grid md:grid-cols-3 gap-12 text-center">
+                <div>
+                    <div class="text-blue-500 text-4xl mb-4">100%</div>
+                    <h4 class="text-2xl font-bold mb-4">Private</h4>
+                    <p class="text-gray-400">Your logs and metrics are yours alone. No accounts required, and no data is uploaded to remote servers.</p>
+                </div>
+                <div>
+                    <div class="text-blue-500 text-4xl mb-4">Offline</div>
+                    <h4 class="text-2xl font-bold mb-4">First Engine</h4>
+                    <p class="text-gray-400">Designed for cellular dead zones and basement gyms using ultra-fast, local database technology.</p>
+                </div>
+                <div>
+                    <div class="text-blue-500 text-4xl mb-4">Secure</div>
+                    <h4 class="text-2xl font-bold mb-4">Backups</h4>
+                    <p class="text-gray-400">Keep history safe with secure iCloud backups or export your data in clean JSON/CSV formats at any time.</p>
                 </div>
             </div>
-            <p class="mt-12 text-lg text-gray-600 max-w-2xl mx-auto">
-                Full CSV data portability. Own your training logs with professional-grade tonnage and rep-volume analytics.
-            </p>
+        </div>
+    </section>
+
+    <!-- Technical Excellence -->
+    <section class="bg-gray-100 text-black py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Technical Excellence</h3>
+            <ul class="text-lg space-y-4 font-medium">
+                <li>Optimized for iOS 17+</li>
+                <li>Clean, high-performance SwiftUI layouts</li>
+                <li>Universal display sizing and localizations</li>
+            </ul>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="bg-black py-24 px-6 border-t border-white/10 text-center">
         <div class="max-w-xl mx-auto">
-            <h3 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white">Contact Support</h3>
+            <h3 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white uppercase">Contact Support</h3>
             <p class="text-gray-400 text-lg mb-12">
-                Have a question about your performance data or the Personal Lift experience? 
-                Our team is ready to help you optimize your training.
+                Have a question about your performance data? Our team is ready to help you optimize your training.
             </p>
-            
             <div class="flex justify-center">
                 <a href="mailto:your-email@example.com?subject=Personal%20Lift%20Support%20Inquiry" 
                    class="inline-block bg-white text-black font-bold px-10 py-4 rounded-xl hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-xl">
                     Email Us
                 </a>
             </div>
-            
-            <p class="mt-8 text-gray-500 text-sm italic">
-                Standard email response times apply.
-            </p>
         </div>
     </section>
 
